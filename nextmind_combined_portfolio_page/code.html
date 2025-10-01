@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NextMIND Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1919e6",
+            "background-light": "#f6f6f8",
+            "background-dark": "#111121",
+          },
+          fontFamily: {
+            "display": ["Space Grotesk", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "1rem",
+            "xl": "1.5rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .dark .glassmorphism {
+      background: rgba(17, 17, 33, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .gradient-border {
+      border: 2px solid transparent;
+      background-clip: padding-box;
+      position: relative;
+    }
+    .gradient-border::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -2px;
+      border-radius: inherit;
+      background: linear-gradient(to right, #00c6ff, #0072ff, #7a00ff);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white transition-all duration-300">
+<div class="w-full min-h-screen">
+<section class="min-h-screen flex flex-col items-center justify-center p-4 bg-cover bg-center" id="hero" style='background-image: linear-gradient(rgba(17, 17, 33, 0.8) 0%, rgba(17, 17, 33, 1) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCRN3W1TtKkSm1NeILmvyrhTyNn9t0x3dOWOZWHPpfo9KaONMhsk8RUZiDIYgzdsgIYS4wC7LhXM1KQGC-B1TbtQZ7oRY_TJgBnAhf58bu912FW2jwW2JYVBqefkpaGm98pfYohjtFSVPU5CH7CW9yMDbAZXmaL2A_rtIKNzlG_DyuTQ81AGIDBCLq5snaF7NS9bYCMuhE0bQ0QCp_wez2sbRUfp71-Zxa8NnkF7bwDw_QPoXRNo0Spoa3OjH1YmAUGftruZz_pp-A");'>
+<div class="text-center space-y-4">
+<div class="relative w-48 h-48 mx-auto mb-4">
+<div class="absolute inset-0 rounded-full bg-gradient-to-tr from-cyan-400 via-blue-500 to-purple-600 animate-pulse"></div>
+<div class="absolute inset-2 rounded-full bg-background-dark flex items-center justify-center">
+<h1 class="text-5xl font-bold leading-tight tracking-tighter text-white">N</h1>
+</div>
+</div>
+<h1 class="text-6xl font-bold leading-tight tracking-tighter">NextMIND</h1>
+<p class="text-lg text-white/80 max-w-md mx-auto">Revolutionizing mental health support through AI-driven insights and personalized care.</p>
+</div>
+<button class="mt-8 bg-primary text-white font-bold py-3 px-8 rounded-lg hover:bg-primary/90 transition-colors duration-300">
+        Explore
+      </button>
+</section>
+<section class="py-20 px-4" id="about">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-4xl font-bold mb-4">About NextMIND</h2>
+<p class="text-lg text-white/70">
+          NextMIND is an innovative platform leveraging AI to provide personalized mental health support. Our mission is to make mental wellness accessible and effective for everyone.
+        </p>
+</div>
+</section>
+<section class="py-20 px-4" id="features">
+<div class="max-w-6xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold">Features</h2>
+<p class="text-lg text-white/70 mt-2">Discover how NextMIND's features can help you achieve a healthier, happier mind.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+<div class="glassmorphism rounded-xl p-6 text-center gradient-border">
+<div class="flex justify-center mb-4">
+<svg class="text-primary" fill="currentColor" height="48" viewBox="0 0 256 256" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M248,124a56.11,56.11,0,0,0-32-50.61V72a48,48,0,0,0-88-26.49A48,48,0,0,0,40,72v1.39a56,56,0,0,0,0,101.2V176a48,48,0,0,0,88,26.49A48,48,0,0,0,216,176v-1.41A56.09,56.09,0,0,0,248,124ZM88,208a32,32,0,0,1-31.81-28.56A55.87,55.87,0,0,0,64,180h8a8,8,0,0,0,0-16H64A40,40,0,0,1,50.67,86.27,8,8,0,0,0,56,78.73V72a32,32,0,0,1,64,0v68.26A47.8,47.8,0,0,0,88,128a8,8,0,0,0,0,16,32,32,0,0,1,0,64Zm104-44h-8a8,8,0,0,0,0,16h8a55.87,55.87,0,0,0,7.81-.56A32,32,0,1,1,168,144a8,8,0,0,0,0-16,47.8,47.8,0,0,0-32,12.26V72a32,32,0,0,1,64,0v6.73a8,8,0,0,0,5.33,7.54A40,40,0,0,1,192,164Zm16-52a8,8,0,0,1-8,8h-4a36,36,0,0,1-36-36V80a8,8,0,0,1,16,0v4a20,20,0,0,0,20,20h4A8,8,0,0,1,208,112ZM60,120H56a8,8,0,0,1,0-16h4A20,20,0,0,0,80,84V80a8,8,0,0,1,16,0v4A36,36,0,0,1,60,120Z"></path></svg>
+</div>
+<h3 class="text-xl font-bold mb-2">AI-Powered Responses in Talk</h3>
+<p class="text-white/70">Receive tailored recommendations and insights based on your unique mental health profile.</p>
+</div>
+<div class="glassmorphism rounded-xl p-6 text-center gradient-border">
+<div class="flex justify-center mb-4">
+<svg class="text-primary" fill="currentColor" height="48" viewBox="0 0 256 256" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128ZM84,116a12,12,0,1,0,12,12A12,12,0,0,0,84,116Zm88,0a12,12,0,1,0,12,12A12,12,0,0,0,172,116Zm60,12A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.53a7.85,7.85,0,0,1,2.53-.42,8,8,0,0,1,4,1.08A88,88,0,0,0,216,128Z"></path></svg>
+</div>
+<h3 class="text-xl font-bold mb-2">Nextcloud API + AI Proxy</h3>
+<p class="text-white/70">Secure handoff between Nextcloud APIs and our AI Proxy for low-latency inference.</p>
+</div>
+<div class="glassmorphism rounded-xl p-6 text-center gradient-border">
+<div class="flex justify-center mb-4">
+<svg class="text-primary" fill="currentColor" height="48" viewBox="0 0 256 256" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"></path></svg>
+</div>
+<h3 class="text-xl font-bold mb-2">Smart Floating Widget</h3>
+<p class="text-white/70">Docked/minimized bubble that expands to a full panel; persists across pages and tabs.</p>
+</div>
+<div class="glassmorphism rounded-xl p-6 text-center gradient-border">
+<div class="flex justify-center mb-4">
+<svg class="text-primary" fill="currentColor" height="48" viewBox="0 0 256 256" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path></svg>
+</div>
+<h3 class="text-xl font-bold mb-2">Real-time Notifications</h3>
+<p class="text-white/70">Cross-tab sync using BroadcastChannel/WebSocket; unread badges and subtle toasts.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-4" id="tech-stack">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-4xl font-bold text-center mb-4">Our Tech Stack</h2>
+<p class="text-lg text-white/70 text-center mb-12 max-w-2xl mx-auto">
+        Our tech stack is meticulously chosen to deliver a seamless and responsive user experience. The interface, crafted with React/Next.js and styled with Tailwind CSS, comes to life with Framer Motion animations. All of this is presented within our signature dark theme, accentuated by neon gradients and sleek glassmorphism effects that highlight the technology driving NextMIND. The backend leverages Nextcloud APIs, bridged via an AI Proxy, with WebSocket ensuring real-time communication, making the platform both powerful and robust.
+      </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center">
+<div class="p-6 rounded-lg bg-background-dark/50 glassmorphism">
+<div class="flex justify-center items-center h-16 w-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600">
+<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-xl font-semibold mb-2">UI</h3>
+<p class="text-white/80">React/Next.js, Tailwind CSS, Framer Motion</p>
+</div>
+<div class="p-6 rounded-lg bg-background-dark/50 glassmorphism">
+<div class="flex justify-center items-center h-16 w-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-500 to-indigo-600">
+<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h3 class="text-xl font-semibold mb-2">Backend</h3>
+<p class="text-white/80">Nextcloud APIs bridged via AI Proxy; WebSocket for realtime.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-4" id="journey">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-4xl font-bold text-center mb-12">Demonstration Video</h2>
+<div class="aspect-video glassmorphism rounded-xl p-2 gradient-border">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="rounded-lg w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+</div>
+</div>
+</section>
+<section class="py-20 px-4" id="contact">
+<div class="max-w-md mx-auto text-center">
+<h2 class="text-4xl font-bold mb-4">See the Complete Project</h2>
+<p class="text-lg text-white/70 mb-8">Explore our GitHub repository to see the code, contribute, and learn more about NextMIND.</p>
+<a class="mb-6 inline-flex items-center justify-center w-full bg-gray-700 text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-600 transition-colors duration-300" href="#">
+<svg class="h-6 w-6 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+</svg>
+          See GitHub Repo
+        </a>
+<h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+<p class="text-lg text-white/70 mb-8">Have a question or want to get in touch? Connect with us on LinkedIn.</p>
+<a class="inline-flex items-center justify-center w-full bg-primary text-white font-bold py-3 px-8 rounded-lg hover:bg-primary/90 transition-colors duration-300" href="#">
+<svg class="h-6 w-6 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+</svg>
+          Connect us on LinkedIn
+        </a>
+</div>
+</section>
+<footer class="py-12 px-4 border-t border-primary/20">
+<div class="max-w-6xl mx-auto text-center text-white/60">
+<div class="flex justify-center space-x-6 mb-6">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+</div>
+<div class="flex justify-center space-x-6 mb-6">
+<a class="hover:text-white transition-colors" href="#"><svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"></path></svg></a>
+<a class="hover:text-white transition-colors" href="#"><svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg></a>
+</div>
+<p>© 2024 NextMIND. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</body></html>
